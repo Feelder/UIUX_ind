@@ -1,0 +1,15 @@
+.how-we-do-it {
+    max-width: 1200px;
+    max-height: 686px;
+    background: #E5E8EB;
+}
+    .how-we-do-it .wrapper-how{
+        padding-top:100px;
+        padding-right:48px;
+        padding-left:48px;
+        padding-bottom:110px;
+        display:flex;
+    }
+        .how-we-do-it .wrapper-how .how-text{
+            width:50%;
+        }
