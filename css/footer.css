@@ -1,0 +1,106 @@
+﻿@media screen and (max-width: 768px) {
+    .footer {
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+
+        .footer .nav {
+            display: flex;
+            align-items: center;
+        }
+
+            .footer .nav .listUP {
+                display: block;
+                align-items: center;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                color: #42446E;
+            }
+                .footer .nav .listUP .item {
+                    margin-right: 50px;
+                }
+            .footer .nav .listDOWN {
+                display: grid;
+                text-align: center;
+                grid-template-columns: repeat(2, 1fr);
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                color: #42446E;
+            }
+                .footer .nav .listDOWN .item {
+                    margin-right: 50px;
+                }
+}
+
+@media screen and (min-width: 768px) {
+
+
+    .footer {
+        display: flex;
+        align-items: center;
+        padding-top: 63px;
+        padding-bottom: 63px;
+        justify-content: center;
+    }
+
+        .footer .nav {
+            display: flex;
+            align-items: center;
+        }
+
+            .footer .nav .listUP {
+                display: flex;
+                align-items: center;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                color: #42446E;
+            }
+
+            .footer .nav .listDOWN {
+                display: flex;
+                align-items: center;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                color: #42446E;
+            }
+
+            .footer .nav .listUP .item {
+                margin-right: 70px;
+            }
+
+                .footer .nav .listUP .item .link {
+                    font-family: 'DM Sans';
+                    color: #42446E;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+
+            .footer .nav .listDOWN .item {
+                margin-right: 40px;
+            }
+
+                .footer .nav .listDOWN .item .link {
+                    font-family: 'DM Sans';
+                    color: #42446E;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+}
+

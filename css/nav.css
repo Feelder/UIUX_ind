@@ -1,0 +1,27 @@
+﻿.nav .list {
+    display: flex;
+    align-items: center;
+}
+    .nav .list .item {
+        justify-content:space-between;
+        font-family: 'Roboto';
+        padding-right:30px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #134A45;
+    }
+
+    .nav .list .item:first-child {
+        margin-left: 144px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #134A45;
+    }
+    

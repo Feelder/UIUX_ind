@@ -1,0 +1,32 @@
+.no-footer {
+    font-family: 'Roboto';
+    width: 1200px;
+    height: 330px;
+    background: #E5E8EB;
+}
+    .no-footer .inner{
+        padding-top:70px;
+        padding-left:50px;
+        padding-right:50px;
+    }
+        .no-footer .inner hr {
+        }
+        .no-footer .inner p {
+            padding-top: 39px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #134A45;
+        }
+    .no-footer .images {
+        display: flex;
+        justify-content: center;
+        padding-top:72px;
+    }
+    .no-footer .images img{
+        padding-right:52px; 
+    }
+        .no-footer .images img:last-child {
+            padding-right: 0;
+        }
