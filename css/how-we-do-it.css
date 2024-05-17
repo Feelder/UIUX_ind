@@ -2,6 +2,7 @@
     max-width: 1200px;
     max-height: 686px;
     background: #E5E8EB;
+    font-family: 'Roboto';
 }
     .how-we-do-it .wrapper-how{
         padding-top:100px;
@@ -12,4 +13,38 @@
     }
         .how-we-do-it .wrapper-how .how-text{
             width:50%;
+        }
+        .how-we-do-it .wrapper-how h2 {
+            width: 145px;
+            height: 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #134A45;
+        }
+        .how-we-do-it .wrapper-how h1 {
+            margin-top:30px;
+            width: 428px;
+            height: 171px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 47px;
+            line-height: 57px;
+            letter-spacing: 0.6px;
+            color: #134A45;
+        }
+
+        .how-we-do-it .wrapper-how .research {
+            margin-top: 35px;
+            width: 407px;
+            height: 112px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 28px;
+            letter-spacing: 0.2px;
+            color: #134A45;
         }

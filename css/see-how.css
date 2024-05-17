@@ -1,0 +1,128 @@
+.see-how {
+    width: 1200px;
+    min-height: 898px;
+    background: #CFD4D8;
+    font-family: 'Roboto';
+    border-radius: 0px;
+}
+    .see-how .wrappet-see{
+        padding-top:87px;
+        padding-left:47px;
+        padding-right:47px;
+    }
+        .see-how .wrappet-see h1 {
+            margin-bottom: 73px;
+            width: 617px;
+            height: 114px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 57px;
+            letter-spacing: 0.6px;
+            color: #134A45;
+        }
+        .see-how .wrappet-see .see-cards {
+            display: flex;
+            justify-content:space-between;
+        }
+            .see-how .wrappet-see .see-cards .card1 { 
+                width: 340px;
+                height: 524px;
+                background: #134A45;
+                border-radius: 0px;
+            }
+                .see-how .wrappet-see .see-cards .card1 section {
+                    margin-top: 40px;
+                    margin-left: 20px;
+                }
+                .see-how .wrappet-see .see-cards .card2 section {
+                    margin-top: 40px;
+                    margin-left: 20px;
+                }
+                .see-how .wrappet-see .see-cards .card3 section {
+                    margin-top: 40px;
+                    margin-left: 20px;
+                }
+
+                .see-how .wrappet-see .see-cards .card1 section p {
+                    margin-bottom: 19px;
+                    width: 184px;
+                    height: 90px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 26px;
+                    line-height: 30px;
+                    /* or 115% */
+
+                    color: #E5E8EB;
+                }
+            .see-how .wrappet-see .see-cards .card1 section h3 {
+                width: 238px;
+                height: 90px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 30px;
+                letter-spacing: 0.2px;
+                color: #E5E8EB;
+            }
+                    .see-how .wrappet-see .see-cards .card2 {
+                        width: 340px;
+                        height: 524px;
+                        background: #E5E8EB;
+                        border-radius: 0px;
+                    }
+                        .see-how .wrappet-see .see-cards .card2 section p {
+                            width: 203px;
+                            height: 60px;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 26px;
+                            line-height: 30px;
+                            color: #134A45;
+                            margin-bottom:19px;
+                        }
+                        .see-how .wrappet-see .see-cards .card2 section h3 {
+                            width: 222px;
+                            height: 90px;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 17px;
+                            line-height: 30px;
+                            letter-spacing: 0.2px;
+                            color: #134A45;
+                        }
+                        .see-how .wrappet-see .see-cards .card2 section img{
+                            padding-left:240px;
+                            padding-top:259px;  
+                        }
+                        .see-how .wrappet-see .see-cards .card3 {
+                            width: 340px;
+                            height: 524px;
+                            background: #96C9E9;
+                            border-radius: 0px;
+                        }
+                            .see-how .wrappet-see .see-cards .card3 section p {
+                                width: 247px;
+                                height: 60px;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 26px;
+                                line-height: 30px;
+                                color: #134A45;
+                                margin-bottom:19px;
+                            }
+                            .see-how .wrappet-see .see-cards .card3 section h3 {
+                                width: 239px;
+                                height: 60px;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 11px;
+                                line-height: 30px;
+                                letter-spacing: 0.2px;
+                                color: #134A45;
+                            }
+            .see-how .wrappet-see .see-cards .card3 section img {
+                padding-left: 240px;
+                padding-top: 289px;
+            }
