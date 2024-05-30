@@ -1,60 +1,94 @@
-.deliver-more {
-    width: 1070px;
-    height:490px;
-    display: flex;
-    font-family: 'Roboto';
-    margin-top: 60px;
+@media screen and (max-width: 768px) {
+    .deliver-more {
+        flex-direction: column;
+        display: flex;
+        min-height: 950px;
+        padding-bottom: 20%;
+        
+    }
+
+        .deliver-more .images {
+            margin-left: 20px;
+            order: -1;
+            margin-bottom: 30px;
+            width: 50%;
+        }
+        .deliver-more .deliver h1,
+        .deliver-more .deliver .violet,
+        deliver-more .deliver button {
+            
+            margin-left: 20px;
+            display: block;
+            text-align: center;
+        }
+
+
+
 }
-    .deliver-more .deliver {
+    .deliver-more {
+        width: 1070px;
+        height: 490px;
+        display: flex;
         font-family: 'Roboto';
-        width:50%;
+        margin-top: 60px;
     }
-    
-        .deliver-more .deliver h1 {
-            padding-top:75px;
-            height: auto;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 63px;
-            line-height: 73px;
-            letter-spacing: 2px;
-            color: #134A45;
-            padding-bottom:40px;
+
+        .deliver-more .deliver {
+            font-family: 'Roboto';
+            width: 50%;
         }
-    .deliver-more .deliver .violet {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-        letter-spacing: 0.2px;
-        color: #134A45;
-        padding-bottom:57px;
-    }
-        .deliver-more .deliver button {
-            width: 220px;
-            border:0;
-            text-align:left;
-            background: #134A45;
-            border-radius: 0px;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 15px;
-            line-height: 30px;
-            color: #E5E8EB;
-        }
-            .deliver-more .deliver button .but-text{
-                padding-left:25px;
+
+            .deliver-more .deliver h1 {
+                padding-top: 75px;
+                height: auto;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 63px;
+                line-height: 73px;
+                letter-spacing: 2px;
+                color: #134A45;
+                padding-bottom: 40px;
             }
-            .deliver-more .images {
-                display:flex;
+
+            .deliver-more .deliver .violet {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: 0.2px;
+                color: #134A45;
+                padding-bottom: 57px;
+            }
+
+            .deliver-more .deliver button {
+                width: 220px;
+                border: 0;
+                text-align: left;
+                background: #134A45;
+                border-radius: 0px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 30px;
+                color: #E5E8EB;
+            }
+
+                .deliver-more .deliver button .but-text {
+                    padding-left: 25px;
+                }
+
+        .deliver-more .images {
+            display: flex;
+            width: 50%;
+        }
+
+            .deliver-more .images .img1 {
+                margin-right: 30px;
+            }
+
+            .deliver-more .images .img2 {
                 width: 50%;
             }
-                .deliver-more .images .img1 {
-                    
-                    margin-right:30px;
-                }
-                .deliver-more .images .img2 {
-                    width: 50%;
-                }
-                .deliver-more .images .img2 :first-child{
+
+                .deliver-more .images .img2 :first-child {
                 }

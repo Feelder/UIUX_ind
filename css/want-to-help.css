@@ -1,49 +1,106 @@
-.want-to-help {
-    width: 1200px;
-    min-height: 400px;
-    font-family: 'Roboto';
-    background: #96C9E9;
-    border-radius: 0px;
-}
-    .want-to-help .wrapper-want{
-        padding-top:114px;
-        margin-left:227px;
-        margin-right:227px;
+@media screen and (max-width: 768px) {
+    .want-to-help {
+        width: 100%;
+        min-height: auto;
+        font-family: 'Roboto';
+        background: #96C9E9;
+        border-radius: 0px;
     }
-        .want-to-help .wrapper-want h1 {
-            width: 726px;
-            height: 114px;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 50px;
-            line-height: 57px;
-            /* or 114% */
-            text-align: center;
-            letter-spacing: 0.6px;
-            color: #134A45;
-            margin-bottom:30px;
+        .want-to-help .wrapper-want {
+            padding-top: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
         }
-        .want-to-help .wrapper-want h2 {
-            width: 743px;
-            height: 28px;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 28px;
-            text-align: center;
-            letter-spacing: 0.2px;
-            color: #134A45;
-            margin-bottom:45px;
+            .want-to-help .wrapper-want h1 {
+                width: 100%;
+                height: auto;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 57px;
+                /* or 114% */
+                text-align: center;
+                letter-spacing: 0.6px;
+                color: #134A45;
+                margin-bottom: 30px;
+            }
+            .want-to-help .wrapper-want h2 {
+                width: 100%;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                text-align: center;
+                letter-spacing: 0.2px;
+                color: #134A45;
+                margin-bottom: 45px;
+            }
+            .want-to-help .wrapper-want button {
+                
+                margin-left: 50px;
+                width: 200px;
+                background: #134A45;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 57px;
+                text-align: center;
+                color: #E5E8EB;
+                margin-bottom:20px;
+            }
+}
+@media screen and (min-width: 768px) {
+    .want-to-help {
+        width: 1200px;
+        min-height: 400px;
+        font-family: 'Roboto';
+        background: #96C9E9;
+        border-radius: 0px;
+    }
+
+        .want-to-help .wrapper-want {
+            padding-top: 114px;
+            margin-left: 227px;
+            margin-right: 227px;
         }
-        .want-to-help .wrapper-want button {
-            margin-left:200px;
-            width: 339px;
-            height: 57px;
-            background: #134A45;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 25px;
-            line-height: 57px;
-            text-align: center;
-            color: #E5E8EB;
-        }
+
+            .want-to-help .wrapper-want h1 {
+                width: 726px;
+                height: 114px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 57px;
+                /* or 114% */
+                text-align: center;
+                letter-spacing: 0.6px;
+                color: #134A45;
+                margin-bottom: 30px;
+            }
+
+            .want-to-help .wrapper-want h2 {
+                width: 743px;
+                height: 28px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                text-align: center;
+                letter-spacing: 0.2px;
+                color: #134A45;
+                margin-bottom: 45px;
+            }
+
+            .want-to-help .wrapper-want button {
+                margin-left: 200px;
+                width: 339px;
+                height: 57px;
+                background: #134A45;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 57px;
+                text-align: center;
+                color: #E5E8EB;
+            }
+}

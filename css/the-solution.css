@@ -1,107 +1,69 @@
-.the-solution {
-    min-height: 1089px;
-    margin-top: 99px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-family: 'Roboto';
-}
-    .the-solution h2 {
-        padding-bottom:30px;
-        display: flex;
-        width: 100%;
-        height: 20px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 20px;
-        text-align: center;
-        letter-spacing: 4px;
-        text-transform: uppercase;
-        color: #134A45;
-        justify-content: center;
+@media screen and (max-width: 768px) {
+    .the-solution {
+        min-height: auto;
+        width:100%;
+        margin-top: 99px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: 'Roboto';
     }
-    .the-solution h1 {
-        margin-left:199px;
-        width: 702px;
-        height: 114px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 49px;
-        line-height: 57px;
-        text-align: center;
-        letter-spacing: 0.6px;
-        color: #134A45;
-    }
-    .the-solution .cards{
-        margin-top:46px;
-        display:flex;
-
-    }
-        .the-solution .cards .solu-left {
-            width: 550px;
-            height: 769px;
-            background: #96C9E9;
+        .the-solution h2 {
+            padding-bottom: 20px;
+            display: flex;
+            width: 100%;
+            height: auto;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #134A45;
+            justify-content: center;
         }
-            .the-solution .cards .solu-left img{
-                padding-top:120px;
-                padding-left:94px;
-            }
-            .the-solution .cards .solu-left .title-card {
-                margin-top:47px;
-                display:flex;
+        .the-solution h1 {
+            margin-left: 10px;
+            width: 90%;
+            height: auto;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 57px;
+            text-align: center;
+            letter-spacing: 0.6px;
+            color: #134A45;
+        }
+        .the-solution .cards {
+            margin-top: 10px;
+        }
+            .the-solution .cards .solu-left {
                 width: 100%;
-                justify-content:center;
-                height: 40px;
-                font-style: normal;
-                font-weight: 400;
-                font-size: 40px;
-                line-height: 40px;
-                text-align: center;
-                letter-spacing: 0.2px;
-                color: #134A45;
+                height: auto;
+                background: #96C9E9;
             }
-
-            .the-solution .cards .solu-left .solut-text {
-                margin-top: 32px;
-                margin-left:92px;
-                width: 367px;
-                height: 84px;
-                font-style: normal;
-                font-weight: 400;
-                font-size: 17px;
-                line-height: 28px;
-                text-align: center;
-                letter-spacing: 0.2px;
-                color: #134A45;
-            }
-            .the-solution .cards .solu-left hr {
-                border: 1px solid #276B65;
-                margin-top: 58px;
-                width: 550px;
-            }
-            .the-solution .cards .solu-left .solut-text :first-child {
-                margin-top: 32px;
-                margin-left: 92px;
-                width: 367px;
-                height: 84px;
-                font-style: normal;
-                font-weight: 400;
-                font-size: 17px;
-                line-height: 28px;
-                text-align: center;
-                letter-spacing: 0.2px;
-                color: #134A45;
-                padding-bottom: 58px;
-            }
-
-
-
-
-
+                .the-solution .cards .solu-left img {
+                    padding-top: 60px;
+                    padding-left: 94px;
+                }
+                .the-solution .cards .solu-left .title-card {
+                    margin-top: 47px;
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                    height: 40px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    color: #134A45;
+                }
 
             .the-solution .cards .solut-right {
-                width: 550px;
-                height: 769px;
+                width: 100%;
+                height: auto;
                 background: #134A45;
             }
                 .the-solution .cards .solut-right .title-cardR {
@@ -131,12 +93,178 @@
                     letter-spacing: 0.2px;
                     color: #CFD4D8;
                 }
+                .the-solution .cards .solut-right .solut-textR {
+                    margin-top: 32px;
+                    margin-left: 92px;
+                    width: 367px;
+                    height: 84px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    color: #CFD4D8;
+                }
                 .the-solution .cards .solut-right hr {
                     border: 1px solid #276B65;
                     margin-top: 58px;
                     width: 550px;
                 }
+
                 .the-solution .cards .solut-right img {
                     padding-top: 105px;
                     padding-left: 88px;
                 }
+}
+@media screen and (min-width: 768px) {
+    .the-solution {
+        min-height: 1089px;
+        margin-top: 99px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: 'Roboto';
+    }
+
+        .the-solution h2 {
+            padding-bottom: 30px;
+            display: flex;
+            width: 100%;
+            height: 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #134A45;
+            justify-content: center;
+        }
+
+        .the-solution h1 {
+            margin-left: 199px;
+            width: 702px;
+            height: 114px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 49px;
+            line-height: 57px;
+            text-align: center;
+            letter-spacing: 0.6px;
+            color: #134A45;
+        }
+
+        .the-solution .cards {
+            margin-top: 46px;
+            display: flex;
+        }
+
+            .the-solution .cards .solu-left {
+                width: 550px;
+                height: 769px;
+                background: #96C9E9;
+            }
+
+                .the-solution .cards .solu-left img {
+                    padding-top: 120px;
+                    padding-left: 94px;
+                }
+
+                .the-solution .cards .solu-left .title-card {
+                    margin-top: 47px;
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                    height: 40px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    color: #134A45;
+                }
+                
+
+                .the-solution .cards .solu-left .solut-text :first-child {
+                    margin-top: 32px;
+                    margin-left: 92px;
+                    width: 367px;
+                    height: 84px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    color: #134A45;
+                    padding-bottom: 58px;
+                }
+            
+                .the-solution .cards .solut-right {
+                width: 550px;
+                height: 769px;
+                background: #134A45;
+            }
+
+                .the-solution .cards .solut-right .title-cardR {
+                    margin-top: 32px;
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                    height: 40px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    color: #CFD4D8;
+                }
+
+                .the-solution .cards .solut-right .solut-textR {
+                    margin-top: 32px;
+                    margin-left: 92px;
+                    width: 367px;
+                    height: 84px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    color: #CFD4D8;
+                }
+
+                .the-solution .cards .solut-right hr {
+                    border: 1px solid #276B65;
+                    margin-top: 58px;
+                    width: 550px;
+                }
+
+                .the-solution .cards .solut-right img {
+                    padding-top: 105px;
+                    padding-left: 88px;
+                }
+}
+
+.the-solution .cards .solu-left .solut-text {
+    margin-top: 32px;
+    margin-left: 92px;
+    width: 367px;
+    height: 84px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #134A45;
+}
+
+.the-solution .cards .solu-left hr {
+    border: 1px solid #276B65;
+    margin-top: 58px;
+    width: 550px;
+}
